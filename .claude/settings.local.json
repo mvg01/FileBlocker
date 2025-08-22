@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(node server.js)",
+      "Bash(taskkill:*)",
+      "Bash(set PORT=8001)",
+      "Bash(del extensions.db)",
+      "Bash(powershell:*)",
+      "Bash(node:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
